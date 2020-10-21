@@ -1,0 +1,16 @@
+PODS:
+  - SDCAlertView (11.1.2)
+
+DEPENDENCIES:
+  - SDCAlertView
+
+SPEC REPOS:
+  trunk:
+    - SDCAlertView
+
+SPEC CHECKSUMS:
+  SDCAlertView: 26b5dabdd3c2e6f16c88bad231c84447fa42b0dc
+
+PODFILE CHECKSUM: 99eadde6ce962dbc3a2e0c39160f4ed5008a9d21
+
+COCOAPODS: 1.10.0

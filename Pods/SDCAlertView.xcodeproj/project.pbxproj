@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0361E262C8F6C47FFAD3B30C197D965A /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23707C1181FF4146AC6EB9DB929D0033 /* PresentationController.swift */; };
+		073BEBFFFE1520786CC7ACDC5C8739AC /* UIViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74BCAFE8A4B435F9D8B835847DCCA9 /* UIViewController+Layout.swift */; };
+		0FEC8DAC4C956AF6574333E1D15212B1 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1297EBF852E3BA0A3023F0D004CD15E7 /* ActionSheetView.swift */; };
+		165C6A4E937F4768D958B94EF4A26834 /* AlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5290F09D1AF676CC8F3A70B8AF877F3 /* AlertLabel.swift */; };
+		1F3A7A965F0AD9EC47C3EC2C85DA3F19 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522301C210E0528D4899CDDFF713238 /* UIViewController+Extension.swift */; };
+		2036CCBCCA234A4B1333BDBA0FFA2354 /* AlertControllerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C793AFA26E943C1B67A700211A1AC67 /* AlertControllerViewRepresentable.swift */; };
+		2460F2060EA29FDB51B550252A18EBCB /* UIView+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806C7C7B64106533A62785D4A654936 /* UIView+Accessibility.swift */; };
+		2FCCE2DAAA5DB9582DC72DDA3425F8B5 /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C339BF29315859A9C11892D086E1C /* ActionCell.swift */; };
+		308E3569C74718E4B530D3C3DDA7FDAD /* SDCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DF76F2B44D13B95474ABAE65C417D /* SDCAlertView-dummy.m */; };
+		3A657CC70D047CD79466F2924E9590B4 /* AlertBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F4BBCE83EE1838F257CEEF8794F9C /* AlertBehaviors.swift */; };
+		49EF0657B9A09EE3BE8A6A2C6513AE67 /* ActionSheetPrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB7200A461CA798DB16A0A492423BD /* ActionSheetPrimaryView.swift */; };
+		6873CC68D675A619BD897DE818CC1EB6 /* SDCAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 107FF8FC94E0BC0E834E5B867098CFC5 /* SDCAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA0F55ECFA7D255F33F675D1F83BDC8 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959CB5847B98DFBC4B8FE8FE33F78D2 /* Transition.swift */; };
+		702CEA8933232F0283206136E173FEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627412FBCEE0ABDE3944B1DAB6C96A09 /* Foundation.framework */; };
+		7D862773D18BDDE9234D274C9A94DE76 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F269C53F6A2547310368789DE77CB519 /* TextFieldCell.xib */; };
+		8AA0F21F03171C0E301F62F9393504EC /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601AA7BA3680443CC89F0C4535108ABD /* AlertController.swift */; };
+		8CBE54C5BC2603BCE2705B1F1A542B16 /* NSLayoutConstraint+Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFE27073878096D6BA46DB7A009215 /* NSLayoutConstraint+Priority.swift */; };
+		8FBE124E6AB73F367AD2B7ADA98D096C /* ActionSheetCancelActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AE27B4D27ADBA006285974DBCB19C2 /* ActionSheetCancelActionView.swift */; };
+		A16252790E094B515840B49224B48870 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B36280A95948DB1E5EBA776B53A2695 /* TextFieldCell.swift */; };
+		B03016FE58B882515EBD3E57525D249E /* AlertVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8866647A2ACEBB742694C405D3A63E /* AlertVisualStyle.swift */; };
+		B801CCDA4230078BD88153E92F4DCE35 /* ActionsCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF10DCB8239D76E8AA054BE7581641 /* ActionsCollectionViewFlowLayout.swift */; };
+		BC71AC1F25072850A278A72B314EC1E8 /* ActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147AF4C8BB180B8364797D8751B00C5A /* ActionCell.xib */; };
+		BF79009DCFD6C327A4FAF0E452020ED8 /* Bundle+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236F6FE05FD923D83A35DC11FD51FE8 /* Bundle+Convenience.swift */; };
+		C44E838581322DE4A13130B91D139761 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005C95E9D03BB20D9617928D589510B1 /* AlertView.swift */; };
+		C7D63AF78BB146EA263E5516D57E04A5 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D044B4F63892925E55F2F25835632F /* AnimationController.swift */; };
+		D1D89E626DDBDC505BA61E65344D3496 /* ActionsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555132A8F9E11527D4F7CCACD6164757 /* ActionsCollectionView.swift */; };
+		DD65A1BBA80B8DBD9E0E89A2C76E7FAA /* TextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FEDEDC856BE02ECCABAA9873B8A1F /* TextFieldsViewController.swift */; };
+		E09F3B3E95C09A8356A4A1E4B80B7D42 /* AlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311872A5B08EE1D9878AF2E701B0121 /* AlertController+Convenience.swift */; };
+		FC305FB42C3F533CDF36EA842CFCA8A6 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D23D66E0592396A66CD70DE01B84C7 /* AlertAction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1980CB5A24E52EE2C11DFC5823629B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13522EE2B933FBD595C3215AE4A81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825371D35FB749955F0F7B0D9318BF0D;
+			remoteInfo = "SDCAlertView-SDCAlertView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005C95E9D03BB20D9617928D589510B1 /* AlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertView.swift; path = Source/Views/AlertView.swift; sourceTree = "<group>"; };
+		0311872A5B08EE1D9878AF2E701B0121 /* AlertController+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AlertController+Convenience.swift"; path = "Source/AlertController+Convenience.swift"; sourceTree = "<group>"; };
+		04EB7200A461CA798DB16A0A492423BD /* ActionSheetPrimaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPrimaryView.swift; path = Source/Views/ActionSheetPrimaryView.swift; sourceTree = "<group>"; };
+		09AE27B4D27ADBA006285974DBCB19C2 /* ActionSheetCancelActionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCancelActionView.swift; path = Source/Views/ActionSheetCancelActionView.swift; sourceTree = "<group>"; };
+		0B8DF76F2B44D13B95474ABAE65C417D /* SDCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDCAlertView-dummy.m"; sourceTree = "<group>"; };
+		0BE2B1BD76A8BB373125D9DD22A0DF85 /* SDCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SDCAlertView.bundle; path = "SDCAlertView-SDCAlertView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8866647A2ACEBB742694C405D3A63E /* AlertVisualStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertVisualStyle.swift; path = Source/AlertVisualStyle.swift; sourceTree = "<group>"; };
+		107FF8FC94E0BC0E834E5B867098CFC5 /* SDCAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDCAlertView-umbrella.h"; sourceTree = "<group>"; };
+		1297EBF852E3BA0A3023F0D004CD15E7 /* ActionSheetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetView.swift; path = Source/Views/ActionSheetView.swift; sourceTree = "<group>"; };
+		147AF4C8BB180B8364797D8751B00C5A /* ActionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionCell.xib; path = Source/Actions/ActionCell.xib; sourceTree = "<group>"; };
+		23707C1181FF4146AC6EB9DB929D0033 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = Source/Presentation/PresentationController.swift; sourceTree = "<group>"; };
+		2B36280A95948DB1E5EBA776B53A2695 /* TextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldCell.swift; path = "Source/Text Fields/TextFieldCell.swift"; sourceTree = "<group>"; };
+		2FEFE27073878096D6BA46DB7A009215 /* NSLayoutConstraint+Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Priority.swift"; path = "Source/Views/NSLayoutConstraint+Priority.swift"; sourceTree = "<group>"; };
+		30601569A0277C3DE793524337847702 /* SDCAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDCAlertView.modulemap; sourceTree = "<group>"; };
+		33D23D66E0592396A66CD70DE01B84C7 /* AlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertAction.swift; path = Source/Actions/AlertAction.swift; sourceTree = "<group>"; };
+		3522301C210E0528D4899CDDFF713238 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "Source/Presentation/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		37A9E4B290E3DD6FE7BB1CBF35F1354B /* SDCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		45FF10DCB8239D76E8AA054BE7581641 /* ActionsCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionsCollectionViewFlowLayout.swift; path = Source/Actions/ActionsCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		4806C7C7B64106533A62785D4A654936 /* UIView+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Accessibility.swift"; path = "Source/Views/UIView+Accessibility.swift"; sourceTree = "<group>"; };
+		555132A8F9E11527D4F7CCACD6164757 /* ActionsCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionsCollectionView.swift; path = Source/Actions/ActionsCollectionView.swift; sourceTree = "<group>"; };
+		5D7C339BF29315859A9C11892D086E1C /* ActionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionCell.swift; path = Source/Actions/ActionCell.swift; sourceTree = "<group>"; };
+		5E74BCAFE8A4B435F9D8B835847DCCA9 /* UIViewController+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Layout.swift"; path = "Source/Views/UIViewController+Layout.swift"; sourceTree = "<group>"; };
+		601AA7BA3680443CC89F0C4535108ABD /* AlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertController.swift; path = Source/AlertController.swift; sourceTree = "<group>"; };
+		627412FBCEE0ABDE3944B1DAB6C96A09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C793AFA26E943C1B67A700211A1AC67 /* AlertControllerViewRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertControllerViewRepresentable.swift; path = Source/Views/AlertControllerViewRepresentable.swift; sourceTree = "<group>"; };
+		793FEDEDC856BE02ECCABAA9873B8A1F /* TextFieldsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsViewController.swift; path = "Source/Text Fields/TextFieldsViewController.swift"; sourceTree = "<group>"; };
+		9236F6FE05FD923D83A35DC11FD51FE8 /* Bundle+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Convenience.swift"; path = "Source/Bundle+Convenience.swift"; sourceTree = "<group>"; };
+		C8F0BDCACA3E224838409DE983C868E9 /* SDCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCAlertView.framework; path = SDCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C959CB5847B98DFBC4B8FE8FE33F78D2 /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Source/Presentation/Transition.swift; sourceTree = "<group>"; };
+		CBC49AD873E404B0486FA990FA48CF16 /* SDCAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDCAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		D328CB9953BDCB1E1CC0C93ABE42A71A /* SDCAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDCAlertView.release.xcconfig; sourceTree = "<group>"; };
+		D9D044B4F63892925E55F2F25835632F /* AnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationController.swift; path = Source/Presentation/AnimationController.swift; sourceTree = "<group>"; };
+		DBD732FB47BC749E652CC91503F0C9BD /* SDCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDCAlertView-Info.plist"; sourceTree = "<group>"; };
+		E3F0F36E76CFF45325826684B3BF522B /* ResourceBundle-SDCAlertView-SDCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SDCAlertView-SDCAlertView-Info.plist"; sourceTree = "<group>"; };
+		F269C53F6A2547310368789DE77CB519 /* TextFieldCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TextFieldCell.xib; path = "Source/Text Fields/TextFieldCell.xib"; sourceTree = "<group>"; };
+		F49F4BBCE83EE1838F257CEEF8794F9C /* AlertBehaviors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertBehaviors.swift; path = Source/AlertBehaviors.swift; sourceTree = "<group>"; };
+		F5290F09D1AF676CC8F3A70B8AF877F3 /* AlertLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertLabel.swift; path = Source/Views/AlertLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A081CB030EF5D81D0BF7D151808AEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377646128AFD0250C70E44B545D0FFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702CEA8933232F0283206136E173FEE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA2AE5955C658912D4BAFD76F1223FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				722311608340CABB08B304032D1C31FB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26713FB15311B2CA2C420B7AB686448F = {
+			isa = PBXGroup;
+			children = (
+				0CA2AE5955C658912D4BAFD76F1223FB /* Frameworks */,
+				ABFF57725ECF76DCB7BE42A7A0201C12 /* Products */,
+				6B083EB5492374773FDFE06677D970BB /* SDCAlertView */,
+			);
+			sourceTree = "<group>";
+		};
+		6B083EB5492374773FDFE06677D970BB /* SDCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5D7C339BF29315859A9C11892D086E1C /* ActionCell.swift */,
+				555132A8F9E11527D4F7CCACD6164757 /* ActionsCollectionView.swift */,
+				45FF10DCB8239D76E8AA054BE7581641 /* ActionsCollectionViewFlowLayout.swift */,
+				09AE27B4D27ADBA006285974DBCB19C2 /* ActionSheetCancelActionView.swift */,
+				04EB7200A461CA798DB16A0A492423BD /* ActionSheetPrimaryView.swift */,
+				1297EBF852E3BA0A3023F0D004CD15E7 /* ActionSheetView.swift */,
+				33D23D66E0592396A66CD70DE01B84C7 /* AlertAction.swift */,
+				F49F4BBCE83EE1838F257CEEF8794F9C /* AlertBehaviors.swift */,
+				601AA7BA3680443CC89F0C4535108ABD /* AlertController.swift */,
+				0311872A5B08EE1D9878AF2E701B0121 /* AlertController+Convenience.swift */,
+				6C793AFA26E943C1B67A700211A1AC67 /* AlertControllerViewRepresentable.swift */,
+				F5290F09D1AF676CC8F3A70B8AF877F3 /* AlertLabel.swift */,
+				005C95E9D03BB20D9617928D589510B1 /* AlertView.swift */,
+				0F8866647A2ACEBB742694C405D3A63E /* AlertVisualStyle.swift */,
+				D9D044B4F63892925E55F2F25835632F /* AnimationController.swift */,
+				9236F6FE05FD923D83A35DC11FD51FE8 /* Bundle+Convenience.swift */,
+				2FEFE27073878096D6BA46DB7A009215 /* NSLayoutConstraint+Priority.swift */,
+				23707C1181FF4146AC6EB9DB929D0033 /* PresentationController.swift */,
+				2B36280A95948DB1E5EBA776B53A2695 /* TextFieldCell.swift */,
+				793FEDEDC856BE02ECCABAA9873B8A1F /* TextFieldsViewController.swift */,
+				C959CB5847B98DFBC4B8FE8FE33F78D2 /* Transition.swift */,
+				4806C7C7B64106533A62785D4A654936 /* UIView+Accessibility.swift */,
+				3522301C210E0528D4899CDDFF713238 /* UIViewController+Extension.swift */,
+				5E74BCAFE8A4B435F9D8B835847DCCA9 /* UIViewController+Layout.swift */,
+				DFF93854D4978CD0A5430F0BEF8A518B /* Resources */,
+				CA5B4120A249511355D466CB00DECF13 /* Support Files */,
+			);
+			name = SDCAlertView;
+			path = SDCAlertView;
+			sourceTree = "<group>";
+		};
+		722311608340CABB08B304032D1C31FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				627412FBCEE0ABDE3944B1DAB6C96A09 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABFF57725ECF76DCB7BE42A7A0201C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BE2B1BD76A8BB373125D9DD22A0DF85 /* SDCAlertView.bundle */,
+				C8F0BDCACA3E224838409DE983C868E9 /* SDCAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5B4120A249511355D466CB00DECF13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0F36E76CFF45325826684B3BF522B /* ResourceBundle-SDCAlertView-SDCAlertView-Info.plist */,
+				30601569A0277C3DE793524337847702 /* SDCAlertView.modulemap */,
+				0B8DF76F2B44D13B95474ABAE65C417D /* SDCAlertView-dummy.m */,
+				DBD732FB47BC749E652CC91503F0C9BD /* SDCAlertView-Info.plist */,
+				37A9E4B290E3DD6FE7BB1CBF35F1354B /* SDCAlertView-prefix.pch */,
+				107FF8FC94E0BC0E834E5B867098CFC5 /* SDCAlertView-umbrella.h */,
+				CBC49AD873E404B0486FA990FA48CF16 /* SDCAlertView.debug.xcconfig */,
+				D328CB9953BDCB1E1CC0C93ABE42A71A /* SDCAlertView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDCAlertView";
+			sourceTree = "<group>";
+		};
+		DFF93854D4978CD0A5430F0BEF8A518B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				147AF4C8BB180B8364797D8751B00C5A /* ActionCell.xib */,
+				F269C53F6A2547310368789DE77CB519 /* TextFieldCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A4F310D914A0936A3B1F4784C9CA800 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6873CC68D675A619BD897DE818CC1EB6 /* SDCAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		825371D35FB749955F0F7B0D9318BF0D /* SDCAlertView-SDCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E1747C86B0DA8703DCD974A4DA6FA /* Build configuration list for PBXNativeTarget "SDCAlertView-SDCAlertView" */;
+			buildPhases = (
+				47BEBD9E2668E510F27C5553DF801528 /* Sources */,
+				0A081CB030EF5D81D0BF7D151808AEFF /* Frameworks */,
+				B8DC70C149CFC24143B68A32D6BC72BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDCAlertView-SDCAlertView";
+			productName = "SDCAlertView-SDCAlertView";
+			productReference = 0BE2B1BD76A8BB373125D9DD22A0DF85 /* SDCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		916CD6CE4783BA72293DD86B91BD49AF /* SDCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4148ADE443C22C36D6D7EF7174E73C34 /* Build configuration list for PBXNativeTarget "SDCAlertView" */;
+			buildPhases = (
+				7A4F310D914A0936A3B1F4784C9CA800 /* Headers */,
+				EF9406366AF0F00FD471318046B974CD /* Sources */,
+				377646128AFD0250C70E44B545D0FFF7 /* Frameworks */,
+				8FD23F0F3E7E1503E69C3FDF46E790E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F0052EA009E3DDD5B85E8E817722F38 /* PBXTargetDependency */,
+			);
+			name = SDCAlertView;
+			productName = SDCAlertView;
+			productReference = C8F0BDCACA3E224838409DE983C868E9 /* SDCAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA13522EE2B933FBD595C3215AE4A81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 334CE581692E0D1BB90F604913349237 /* Build configuration list for PBXProject "SDCAlertView" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26713FB15311B2CA2C420B7AB686448F;
+			productRefGroup = ABFF57725ECF76DCB7BE42A7A0201C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916CD6CE4783BA72293DD86B91BD49AF /* SDCAlertView */,
+				825371D35FB749955F0F7B0D9318BF0D /* SDCAlertView-SDCAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FD23F0F3E7E1503E69C3FDF46E790E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DC70C149CFC24143B68A32D6BC72BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC71AC1F25072850A278A72B314EC1E8 /* ActionCell.xib in Resources */,
+				7D862773D18BDDE9234D274C9A94DE76 /* TextFieldCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47BEBD9E2668E510F27C5553DF801528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9406366AF0F00FD471318046B974CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCCE2DAAA5DB9582DC72DDA3425F8B5 /* ActionCell.swift in Sources */,
+				D1D89E626DDBDC505BA61E65344D3496 /* ActionsCollectionView.swift in Sources */,
+				B801CCDA4230078BD88153E92F4DCE35 /* ActionsCollectionViewFlowLayout.swift in Sources */,
+				8FBE124E6AB73F367AD2B7ADA98D096C /* ActionSheetCancelActionView.swift in Sources */,
+				49EF0657B9A09EE3BE8A6A2C6513AE67 /* ActionSheetPrimaryView.swift in Sources */,
+				0FEC8DAC4C956AF6574333E1D15212B1 /* ActionSheetView.swift in Sources */,
+				FC305FB42C3F533CDF36EA842CFCA8A6 /* AlertAction.swift in Sources */,
+				3A657CC70D047CD79466F2924E9590B4 /* AlertBehaviors.swift in Sources */,
+				E09F3B3E95C09A8356A4A1E4B80B7D42 /* AlertController+Convenience.swift in Sources */,
+				8AA0F21F03171C0E301F62F9393504EC /* AlertController.swift in Sources */,
+				2036CCBCCA234A4B1333BDBA0FFA2354 /* AlertControllerViewRepresentable.swift in Sources */,
+				165C6A4E937F4768D958B94EF4A26834 /* AlertLabel.swift in Sources */,
+				C44E838581322DE4A13130B91D139761 /* AlertView.swift in Sources */,
+				B03016FE58B882515EBD3E57525D249E /* AlertVisualStyle.swift in Sources */,
+				C7D63AF78BB146EA263E5516D57E04A5 /* AnimationController.swift in Sources */,
+				BF79009DCFD6C327A4FAF0E452020ED8 /* Bundle+Convenience.swift in Sources */,
+				8CBE54C5BC2603BCE2705B1F1A542B16 /* NSLayoutConstraint+Priority.swift in Sources */,
+				0361E262C8F6C47FFAD3B30C197D965A /* PresentationController.swift in Sources */,
+				308E3569C74718E4B530D3C3DDA7FDAD /* SDCAlertView-dummy.m in Sources */,
+				A16252790E094B515840B49224B48870 /* TextFieldCell.swift in Sources */,
+				DD65A1BBA80B8DBD9E0E89A2C76E7FAA /* TextFieldsViewController.swift in Sources */,
+				6BA0F55ECFA7D255F33F675D1F83BDC8 /* Transition.swift in Sources */,
+				2460F2060EA29FDB51B550252A18EBCB /* UIView+Accessibility.swift in Sources */,
+				1F3A7A965F0AD9EC47C3EC2C85DA3F19 /* UIViewController+Extension.swift in Sources */,
+				073BEBFFFE1520786CC7ACDC5C8739AC /* UIViewController+Layout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F0052EA009E3DDD5B85E8E817722F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDCAlertView-SDCAlertView";
+			target = 825371D35FB749955F0F7B0D9318BF0D /* SDCAlertView-SDCAlertView */;
+			targetProxy = F1980CB5A24E52EE2C11DFC5823629B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A73935FE3BC650704BBBFA288169D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		156A48E62350A9564781B62418BAC50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D328CB9953BDCB1E1CC0C93ABE42A71A /* SDCAlertView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDCAlertView/SDCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDCAlertView/SDCAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SDCAlertView/SDCAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SDCAlertView;
+				PRODUCT_NAME = SDCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90605332818B93A47D616E8BCAFC3F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC49AD873E404B0486FA990FA48CF16 /* SDCAlertView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDCAlertView/SDCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDCAlertView/SDCAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SDCAlertView/SDCAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SDCAlertView;
+				PRODUCT_NAME = SDCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF80850B982CC30E347726570D07D3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D0807930B382C72BA3D0F47C08D9B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D328CB9953BDCB1E1CC0C93ABE42A71A /* SDCAlertView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDCAlertView";
+				IBSC_MODULE = SDCAlertView;
+				INFOPLIST_FILE = "Target Support Files/SDCAlertView/ResourceBundle-SDCAlertView-SDCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SDCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E0565121259D2F8BAC9E387196098166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC49AD873E404B0486FA990FA48CF16 /* SDCAlertView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDCAlertView";
+				IBSC_MODULE = SDCAlertView;
+				INFOPLIST_FILE = "Target Support Files/SDCAlertView/ResourceBundle-SDCAlertView-SDCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SDCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334CE581692E0D1BB90F604913349237 /* Build configuration list for PBXProject "SDCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF80850B982CC30E347726570D07D3BE /* Debug */,
+				0A73935FE3BC650704BBBFA288169D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4148ADE443C22C36D6D7EF7174E73C34 /* Build configuration list for PBXNativeTarget "SDCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90605332818B93A47D616E8BCAFC3F7E /* Debug */,
+				156A48E62350A9564781B62418BAC50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E1747C86B0DA8703DCD974A4DA6FA /* Build configuration list for PBXNativeTarget "SDCAlertView-SDCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0565121259D2F8BAC9E387196098166 /* Debug */,
+				D0807930B382C72BA3D0F47C08D9B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA13522EE2B933FBD595C3215AE4A81E /* Project object */;
+}
